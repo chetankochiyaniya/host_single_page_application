@@ -28,18 +28,18 @@ const info = `
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="home-img">
-                            <img src="/host_single_page_application/assets/imgslider/1.svg" class="img-fluid" alt="img-1" />
+                            <img src="/host_single_page_application/assets/img/slider/1.svg" class="img-fluid" alt="img-1" />
                         </div>
 
                     </div>
                     <div class="carousel-item">
                         <div class="home-img">
-                            <img src="/host_single_page_application/assets/imgslider/2.svg" class="img-fluid" alt="img-2" />
+                            <img src="/host_single_page_application/assets/img/slider/2.svg" class="img-fluid" alt="img-2" />
                         </div>
                     </div>
                     <div class="carousel-item" >
                         <div class="home-img">
-                            <img src="/host_single_page_application/assets/imgslider/3.png" class="img-fluid" alt="img-3" />
+                            <img src="/host_single_page_application/assets/img/slider/3.png" class="img-fluid" alt="img-3" />
                         </div>
 
                     </div>
