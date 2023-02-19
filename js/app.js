@@ -29,6 +29,8 @@ const routes = {
   '#learning': info,
   '/#learning': info,
   '#home': main,
+  '#home': main,
+  '/host_single_page_application/#home': main,
   '/host_single_page_application/': main,
   '/host_single_page_application': main,
   '/host_single_page_application': main,
@@ -36,7 +38,7 @@ const routes = {
   'host_single_page_application/index.html': main,
   'host_single_page_application/index.html': main,
   'host_single_page_application/#services': main,
-  '/host_single_page_application#services': main,
+  '/host_single_page_application/#services': main,
   'host_single_page_application/#products': main,
   '/host_single_page_application/#products': main,
   'host_single_page_application/#about': main,
@@ -61,10 +63,10 @@ const onNavigate = (pathname) => {
 // event linstener to handle routes
 window.addEventListener('load', () => {
   if (window.location.href.includes("info")) {
-    onNavigate('#info')
-    rootDiv.innerHTML = routes['#info'];
+    onNavigate('/host_single_page_application/#info')
+    rootDiv.innerHTML = routes['/host_single_page_application/#info'];
   } else if (window.location.href.includes("learning")) {
-    onNavigate('#learning')
-    rootDiv.innerHTML = routes['#learning'];
+    onNavigate('/host_single_page_application/#learning')
+    rootDiv.innerHTML = routes['/host_single_page_application/#learning'];
   }
 });

@@ -4,25 +4,25 @@ let blog_card = ``
 
 const blogData = [
     {
-      imgUrl: "./assets/img/blog/cbl-3.png",
+      imgUrl: "/host_single_page_application/assets/imgblog/cbl-3.png",
       blogTitle: "Ethereum Summit Governance Plan",
       blogContent:"Words combined with a handful of model to generate which looks reasonable.",
       date:"Jan 1, 2023"
     },
     {
-      imgUrl: "./assets/img/blog/cbl-1.png",
+      imgUrl: "/host_single_page_application/assets/imgblog/cbl-1.png",
       blogTitle: "Ethereum Summit Governance Plan",
       blogContent:"Words combined with a handful of model to generate which looks reasonable.",
       date:"Feb 19, 2023"
     },
     {
-      imgUrl: "./assets/img/blog/cbl-2.png",
+      imgUrl: "/host_single_page_application/assets/imgblog/cbl-2.png",
       blogTitle: "Ethereum Summit Governance Plan",
       blogContent:"Words combined with a handful of model to generate which looks reasonable.",
       date:"March 19, 2023"
     },
     {
-      imgUrl: "./assets/img/blog/cbl-3.png",
+      imgUrl: "/host_single_page_application/assets/imgblog/cbl-3.png",
       blogTitle: "Ethereum Summit Governance Plan",
       blogContent:"Words combined with a handful of model to generate which looks reasonable.",
       date:"Feb 22, 2023"

@@ -28,19 +28,19 @@ const home=`
             <div class="home-img">
                 <ul class="currency-icon list-unstyled">
                     <li>
-                        <img src="assets/img/currency1.svg" alt="icon" />
+                        <img src="/host_single_page_application/assets/img/currency1.svg" alt="icon" />
                     </li>
                     <li>
-                        <img src="assets/img/currency2.svg" alt="icon" />
+                        <img src="/host_single_page_application/assets/img/currency2.svg" alt="icon" />
                     </li>
                     <li>
-                        <img src="assets/img/currency3.svg" alt="icon" />
+                        <img src="/host_single_page_application/assets/img/currency3.svg" alt="icon" />
                     </li>
                     <li>
-                        <img src="assets/img/currency4.svg" alt="icon" />
+                        <img src="/host_single_page_application/assets/img/currency4.svg" alt="icon" />
                     </li>
                 </ul>
-                <img src="assets/img/crypto-person.png" class="img-fluid" alt="person" />
+                <img src="/host_single_page_application/assets/img/crypto-person.png" class="img-fluid" alt="person" />
             </div>
         </div>
     </div>

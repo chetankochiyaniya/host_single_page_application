@@ -45,7 +45,7 @@ const products=`
         </div>
         <div class="col-lg-6 col-md-12 mb-5 mt-5">
             <div class="text-lg-center ml">
-                <img src="assets/img/maps.png" class="img-fluid" alt="Maps" />
+                <img src="/host_single_page_application/assets/img/maps.png" class="img-fluid" alt="Maps" />
             </div>
         </div>
     </div>
