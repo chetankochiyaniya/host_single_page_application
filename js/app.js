@@ -28,6 +28,23 @@ const routes = {
   '/#info': info,
   '#learning': info,
   '/#learning': info,
+  '#home': main,
+  '/host_single_page_application/': main,
+  '/host_single_page_application': main,
+  '/host_single_page_application': main,
+  '/host_single_page_application/index.html': main,
+  'host_single_page_application/index.html': main,
+  'host_single_page_application/index.html': main,
+  'host_single_page_application/#services': main,
+  '/host_single_page_application#services': main,
+  'host_single_page_application/#products': main,
+  '/host_single_page_application/#products': main,
+  'host_single_page_application/#about': main,
+  '/host_single_page_application/#about': main,
+  'host_single_page_application/#info': info,
+  '/host_single_page_application/#info': info,
+  'host_single_page_application/#learning': info,
+  '/host_single_page_application/#learning': info,
 };
 
 rootDiv.innerHTML = routes[window.location.pathname];
