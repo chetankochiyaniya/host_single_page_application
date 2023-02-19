@@ -1,0 +1,177 @@
+/* root varibale */
+:root {
+    --hovercolor: #2874f0;
+    --navcolor: #000000;
+    --textcolor: #ffffff !important;
+    --cardcolor: #222
+}
+
+@media (max-width: 767px) {
+    .home-img .currency-icon li {
+        display: none
+    }
+}
+
+
+
+/*  
+==========================
+      common css 
+=========================
+*/
+#root {
+    margin-top: 60px !important;
+}
+
+body {
+    color: var(--textcolor);
+}
+
+.btn_color {
+    background-color: var(--hovercolor);
+    color: rgb(255, 255, 255);
+    width: fit-content;
+    border-radius: 10px;
+    border: 0px !important;
+    padding: 5px 10px !important;
+    width: 130px !important;
+    height: 42px !important;
+}
+
+.fs {
+    font-size: 1.25rem;
+    font-weight: 400
+}
+
+.play_icon {
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.ml {
+    margin-left: 10px !important;
+}
+
+.card {
+    background-color: var(--cardcolor);
+    /* box-shadow: rgb(177 174 174) 0px 1px 5px 1px; */
+    padding: 20px !important;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text-lg-center {
+    text-align: center !important
+}
+
+.ft-color {
+    background-color: var(--cardcolor);
+}
+
+hr {
+    visibility: hidden;
+}
+
+.vs {
+    visibility: visible !important
+}
+
+
+
+/* 
+=================
+navbar css 
+==================
+*/
+.navbar {
+    box-shadow: rgb(177 174 174) 0px 0px 5px 1px;
+    background-color: var(--navcolor) !important;
+    height: 77px;
+}
+
+.navbar-nav a:hover {
+    background-color: var(--hovercolor) !important;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.offcanvas.show {
+    box-shadow: rgb(177 174 174) 0px 0px 5px 1px;
+    background-color: var(--navcolor) !important;
+}
+
+.nav-link .active {
+    color: white !important;
+}
+
+.nav_m {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+
+/*
+================== 
+home image - css 
+===================
+*/
+.home-img {
+    position: relative
+}
+
+.home-img .currency-icon li {
+    position: absolute;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: var(--cardcolor);
+    padding: 10px;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    align-items: center
+}
+
+.home-img .currency-icon li:nth-child(1) {
+    height: 114px;
+    width: 114px;
+    top: 34%
+}
+
+.home-img .currency-icon li:nth-child(2) {
+    height: 84px;
+    width: 84px;
+    left: 17%;
+    top: 44px
+}
+
+.home-img .currency-icon li:nth-child(3) {
+    height: 110px;
+    width: 110px;
+    right: 17%
+}
+
+.home-img .currency-icon li:nth-child(4) {
+    height: 78px;
+    width: 78px;
+    right: 0;
+    top: 29%
+}
+
+
+/* services section icon css */
+.crypt-promo-icon i {
+    width: 65px;
+    height: 65px;
+    color: #fff;
+    background-color: #3b3b3b;
+    display: inline-block;
+    border-radius: 50px;
+    line-height: 65px;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
